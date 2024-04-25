@@ -18,7 +18,6 @@ export const connectToDB = async () => {
         })
 
         isConnected = true;
-
         console.log('MOngoDB connected');
     }catch(error){
         console.log(error);
